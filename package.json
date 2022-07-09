@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "maimai-music-convert",
   "version": "1.0.0",
   "main": "src/index.ts",
   "private": true,
@@ -17,5 +17,8 @@
     "tsc": "^2.0.4",
     "typescript": "^4.6.4"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "node-id3": "^0.2.3"
+  }
 }
