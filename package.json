@@ -6,7 +6,7 @@
   "keywords": [],
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/scratch.ts"
   },
   "engines": {
     "node": ">=10"
@@ -19,6 +19,7 @@
   },
   "packageManager": "yarn@3.2.0",
   "dependencies": {
+    "fast-xml-parser": "^4.3.2",
     "node-id3": "^0.2.3"
   }
 }
